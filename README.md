@@ -20,7 +20,12 @@
 ```
 ---
 ```
-
+main :: IO ()
+main = do
+  x <- readLn :: IO Int
+  if (x-7)*(x-5)*(x-3)==0
+    then putStrLn "YES"
+    else putStrLn "NO"
 ```
 ---
 ```
@@ -30,8 +35,5 @@ n <- readLn :: IO Int
 putStrLn "Hello World"
 数字出力
 print (a + b)
-if文構成
-  if xxxx then
-  else do
 ```
 ---
