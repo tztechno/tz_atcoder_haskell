@@ -2,10 +2,10 @@ abc114_a.hs
 ##########################################
 main :: IO ()
 main = do
-    x <- readLn :: IO Int
-    if (x-7)*(x-5)*(x-3)==0
-        then putStrLn "Yes"
-        else putStrLn "No"
+  x <- readLn :: IO Int
+  if (x-7)*(x-5)*(x-3)==0
+    then putStrLn "YES"
+    else putStrLn "NO"
 ##########################################
 ##########################################
 ##########################################
@@ -15,10 +15,10 @@ main = do
 ##########################################
 main :: IO ()
 main = do
-    x <- readLn :: IO Int
-    if (x-7)*(x-5)*(x-3)==0
-        then putStrLn "Yes"
-        else putStrLn "No"
+  x <- readLn :: IO Int
+  if (x-7)*(x-5)*(x-3)==0
+    then putStrLn "YES"
+    else putStrLn "NO"
 ##########################################
 [python]
 X=int(input())
