@@ -1,7 +1,6 @@
 # tz_atcoder_haskell
 
 ### latest
-
 ---
 ```
 
@@ -17,6 +16,22 @@
 ---
 ```
 
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+main :: IO ()
+main = do
+  d <- readLn :: IO Int
+  let eves = concat (replicate (25-d) " Eve")
+  putStrLn ("Christmas" ++ eves)
 ```
 ---
 ```
