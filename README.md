@@ -23,7 +23,15 @@
 ```
 ---
 ```
-
+main :: IO ()
+main = do
+    line <- getLine
+    let [b] = words line
+    let mapp = [('A', 'T'), ('C', 'G'), ('G', 'C'), ('T', 'A')]
+    let ans = lookup (head b) mapp
+    case ans of
+        Just value -> putStrLn [value]
+        Nothing    -> putStrLn "Invalid input"
 ```
 ---
 ```
